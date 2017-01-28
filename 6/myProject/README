@@ -1,0 +1,19 @@
+CSCE 4430: Assignment 6 - Page Rank Implemented in Scala
+
+Authors: Ronnie Brewer, Brian Mauldin, Alex Hollis, Supriya Thapa
+
+
+
+[HOW TO COMPILE]
+
+1. To compile the scala program, you will use scalac on the "PageRankMainApp.scala" code, as follows: '  $ scalac PageRankMainApp.scala '
+
+
+
+[HOW TO EXECUTE]
+
+1. Once the code has been compiled, you will see 2 new class files in the same directory PageRankMainApp$.class and PageRankMainApp.class
+
+2. To run the program, just call scala on PageRankMainApp as follows:   '$ scala PageRankMainApp '
+
+3. The code will now execute and output the ranks for each node of the Wikipedia Graph. 

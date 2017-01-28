@@ -1,0 +1,47 @@
+
+
+
+
+
+given a set of sentences in the file story.txt:
+
+
+
+the cat
+a cat
+the cat, and dog
+
+
+
+and given a set of stop words in a list like:
+
+
+the
+and
+
+
+
+what you would end up with is, after removing stop words and punctuation:
+
+cat
+a cat
+cat and dog
+
+
+
+and since there are 3 sentences, you would end up with the following nodes:
+
+
+Node(1) - EdgeList: cat
+
+Node(2) - EdgeList: a, cat
+
+Node(3) - EdgeList: cat, and, dog
+
+Node(cat) - EdgeList: 1, 2, 3
+
+Node(a) - EdgeList: 2
+
+Node(and) - EdgeList: 3
+
+Node(dog) - EdgeList: 3
